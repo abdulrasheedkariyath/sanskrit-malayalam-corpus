@@ -1,0 +1,83 @@
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0B3D91; /* Dark Blue Background */
+    color: white; /* White Text */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Container Styling */
+.container {
+    width: 80%;
+    text-align: center;
+    margin-bottom: 80px; /* Leave space for the footer */
+}
+
+/* Heading Styling */
+h1 {
+    margin-bottom: 20px;
+}
+
+/* Input and Button Styling */
+input[type="text"] {
+    padding: 10px;
+    width: 50%;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #ffffff; /* White Background */
+    color: #0B3D91; /* Dark Blue Text */
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: #E5E5E5;
+}
+
+/* Results Section Styling */
+#results {
+    margin-top: 20px;
+    text-align: left;
+}
+
+/* Styling for each word entry */
+.word-entry {
+    padding: 10px;
+    background-color: #143D7D;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Footer Styling */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #0B3D91; /* Dark Blue */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+}
+
+footer p {
+    margin: 0;
+    padding: 0;
+}

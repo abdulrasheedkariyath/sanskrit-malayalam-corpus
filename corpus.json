@@ -1,0 +1,152 @@
+[
+    {
+        "category": "Nouns (संज्ञा)",
+        "sanskrit": "विद्या",
+        "malayalam": "വിദ്യ",
+        "meaning": "Knowledge, Education"
+    },
+    {
+        "category": "Nouns (संज्ञा)",
+        "sanskrit": "धर्मः",
+        "malayalam": "ധര്‍മം",
+        "meaning": "Righteousness, Duty"
+    },
+    {
+        "category": "Nouns (संज्ञा)",
+        "sanskrit": "सत्यम्",
+        "malayalam": "സത്യം",
+        "meaning": "Truth"
+    },
+    {
+        "category": "Nouns (संज्ञा)",
+        "sanskrit": "सूर्यः",
+        "malayalam": "സൂര്യന്‍",
+        "meaning": "Sun"
+    },
+    {
+        "category": "Nouns (संज्ञा)",
+        "sanskrit": "मन्त्रः",
+        "malayalam": "മന്ത്രം",
+        "meaning": "Mantra, Sacred chant"
+    },
+    {
+        "category": "Nouns (संज्ञा)",
+        "sanskrit": "देवः",
+        "malayalam": "ദേവന്‍",
+        "meaning": "God"
+    },
+    {
+        "category": "Nouns (संज्ञा)",
+        "sanskrit": "कर्म",
+        "malayalam": "കര്‍മ്മം",
+        "meaning": "Action, Deed"
+    },
+    {
+        "category": "Nouns (संज्ञा)",
+        "sanskrit": "मृत्युः",
+        "malayalam": "മൃത്യു",
+        "meaning": "Death"
+    },
+    {
+        "category": "Verbs (क्रिया)",
+        "sanskrit": "भक्तिः",
+        "malayalam": "ഭക്തി",
+        "meaning": "Devotion"
+    },
+    {
+        "category": "Verbs (क्रिया)",
+        "sanskrit": "संगीतम्",
+        "malayalam": "സംഗീതം",
+        "meaning": "Music"
+    },
+    {
+        "category": "Verbs (क्रिया)",
+        "sanskrit": "शिक्षा",
+        "malayalam": "ശിക്ഷ",
+        "meaning": "Education, Instruction"
+    },
+    {
+        "category": "Verbs (क्रिया)",
+        "sanskrit": "पूजा",
+        "malayalam": "പൂജ",
+        "meaning": "Worship"
+    },
+    {
+        "category": "Adjectives (विशेषण)",
+        "sanskrit": "महत्",
+        "malayalam": "മഹത്",
+        "meaning": "Great, Grand"
+    },
+    {
+        "category": "Adjectives (विशेषण)",
+        "sanskrit": "नव",
+        "malayalam": "നവ",
+        "meaning": "New"
+    },
+    {
+        "category": "Adjectives (विशेषण)",
+        "sanskrit": "पुराणम्",
+        "malayalam": "പുരാണം",
+        "meaning": "Ancient, Mythological"
+    },
+    {
+        "category": "Adjectives (विशेषण)",
+        "sanskrit": "शुद्धम्",
+        "malayalam": "ശുദ്ധം",
+        "meaning": "Pure, Clean"
+    },
+    {
+        "category": "Adjectives (विशेषण)",
+        "sanskrit": "मंगलम्",
+        "malayalam": "മംഗളം",
+        "meaning": "Auspicious"
+    },
+    {
+        "category": "Conceptual/Philosophical Terms",
+        "sanskrit": "माया",
+        "malayalam": "മായ",
+        "meaning": "Illusion"
+    },
+    {
+        "category": "Conceptual/Philosophical Terms",
+        "sanskrit": "योगः",
+        "malayalam": "യോഗം",
+        "meaning": "Union, Spiritual practice"
+    },
+    {
+        "category": "Conceptual/Philosophical Terms",
+        "sanskrit": "संस्कारः",
+        "malayalam": "സംസ്കാരം",
+        "meaning": "Ritual, Tradition"
+    },
+    {
+        "category": "Conceptual/Philosophical Terms",
+        "sanskrit": "अहिंसा",
+        "malayalam": "അഹിംസ",
+        "meaning": "Non-violence"
+    },
+    {
+        "category": "Cultural and Religious Terms",
+        "sanskrit": "वेदः",
+        "malayalam": "വേദം",
+        "meaning": "Sacred texts"
+    },
+    {
+        "category": "Cultural and Religious Terms",
+        "sanskrit": "रूपम्",
+        "malayalam": "രൂപം",
+        "meaning": "Form, Appearance"
+    },
+    {
+        "category": "Pronouns and Articles",
+        "sanskrit": "स्व",
+        "malayalam": "സ്വ",
+        "meaning": "Self, Own"
+    },
+    {
+        "category": "Pronouns and Articles",
+        "sanskrit": "त्वम्",
+        "malayalam": "ത്വം",
+        "meaning": "You"
+    }
+]

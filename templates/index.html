@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanskrit-Malayalam Corpus</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Sanskrit-Malayalam Corpus</h1>
+
+        <!-- Search Input -->
+        <input type="text" id="search-input" placeholder="Search Sanskrit or Malayalam...">
+        <button id="search-btn">Search</button>
+
+        <!-- Display All Corpus Button -->
+        <button id="display-all-btn">Display All Corpus</button>
+
+        <!-- Results Section -->
+        <div id="results"></div>
+
+        <!-- Reload Button (Hidden initially) -->
+        <button id="reload-btn" style="display:none;">Reload</button>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>Project developed in partial fulfilment of the requirements for the Refresher Course in Comparative Indian Literature for University/College Teachers conducted from 24-09-2024 to 07-10-2024 by Dr. K. Abdul Rasheed</p>
+    </footer>
+
+    <script>
+        // Search functionality
+        document.getElementById('search-btn').addEventListener('click', function() {
+            const query = document.getElementById('search-input').value;
+            fetch(`/search?q=${query}`)
+                .then(response => response.json())
+                .then(data => {
+                    displayResults(data);
+                    showReloadButton(); // Show the reload button after the result
+                });
+        });
+
+        // Display All Corpus functionality
+        document.getElementById('display-all-btn').addEventListener('click', function() {
+            fetch(`/search?q=`)
+                .then(response => response.json())
+                .then(data => {
+                    displayResults(data);
+                    showReloadButton(); // Show the reload button after displaying all corpus
+                });
+        });
+
+        // Function to display results
+        function displayResults(data) {
+            const resultsDiv = document.getElementById('results');
+            resultsDiv.innerHTML = '';
+            data.forEach(word => {
+                const wordDiv = document.createElement('div');
+                wordDiv.classList.add('word-entry');
+                wordDiv.innerHTML = `<strong>Sanskrit:</strong> ${word.sanskrit} | <strong>Malayalam:</strong> ${word.malayalam} | <strong>Meaning:</strong> ${word.meaning}`;
+                resultsDiv.appendChild(wordDiv);
+            });
+        }
+
+        // Show the reload button
+        function showReloadButton() {
+            const reloadButton = document.getElementById('reload-btn');
+            reloadButton.style.display = 'block';  // Make the button visible
+        }
+
+        // Reload the page when reload button is clicked
+        document.getElementById('reload-btn').addEventListener('click', function() {
+            location.reload();  // Reload the page
+        });
+    </script>
+</body>
+</html>
